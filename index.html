@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>https://survey-form.freecodecamp.rocks/</title>
+  </head>
+
+  <body>
+    <h1 id="title" >Erudite Registration Form</h1>
+    <p id="description" >Take your time with this form and use BLOCK LETTERS ONLY</p>
+
+    <div class="formcont">
+      <form id="survey-form" >
+
+        <fieldset class="info1">
+         
+          <label id="name-label">Name </label><input id="name" type="text" required placeholder="Enter your name"> 
+          <label id="email-label">Email </label><input id="email" required type="email" placeholder="Enter your email"> 
+          <label id="number-label">Age(optional) </label><input id="number" type="number" min="18" max="120" placeholder="Age">
+
+          <label for="dropdown"> What are you joining us for</label>
+            <select id="dropdown">
+              <option value="Student">Student</option>
+              <option value="Teacher">Teacher</option>
+            </select>
+          
+        </fieldset>
+        
+
+      <fieldset class="info2">
+        <fieldset>
+            <label id="referrer">How did you find out about us</label>
+            <label><input id= "facebook" type="radio" name="recommendation" value="Facebook"> Facebook</label>
+            <label><input type="radio" name="recommendation" value="School"> School</label>
+            <label><input type="radio" name="recommendation" value="Bill Board"> Bill Board</label>
+            <label><input type="radio" name="recommendation" value="Friend or Family"> Friend or Family</label>
+        </fieldset>
+          
+        <fieldset>
+            <label id="uniqueness"> Tell us about the things special about you</label> 
+            <label ><input type="checkbox" value="allergy"> Food allergy</label>
+            <label ><input type="checkbox" value="disability"> Physical disability</label>
+            <label ><input type="checkbox" value="ailment"> nursing ailment</label>
+        </fieldset>
+          
+        <fieldset>
+            <label id="Course">What Courses are You Enrolling For</label>
+            <label ><input type="checkbox" value="4ir"> 4ir</label>
+            <label ><input type="checkbox" value="Cambridge"> Cambridge</label>
+            <label ><input type="checkbox" value="SAT"> SAT</label>
+            <label ><input type="checkbox" value="IELTS"> IELTS</label>
+            <label ><input type="checkbox" value="The Giant 3 [SAT,IELTS,4ir]"> The Giant 3 [SAT,IELTS,4ir]</label>
+            <label ><input type="checkbox" value="The Undeniable 4 [Cam, SAT, IELTS, 4ir]"> The Undeniable 4 [Cam, SAT, IELTS, 4IR]</label>
+        </fieldset>
+      </fieldset>
+        
+      <fieldset>
+        <label>What Impact Would you Love to make at Erudite for the World</label>
+            <textarea placeholder="I am aspiring to..." rows="4" column="1"></textarea>
+      </fieldset>
+
+        <label class="submit"></label>
+        <input type="submit" id="submit">
+
+      </form>
+
+    </div>
+  </body>
+</html>
