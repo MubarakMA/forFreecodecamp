@@ -80,7 +80,7 @@ p{
 	border-color: #0066A2;
 	height: 50px;
 	width: 100px;
-	font: bold15px arial,sans-serif;
+	font: bold 15px arial,sans-serif;
 	text-shadow: none;
 }
 
@@ -102,7 +102,7 @@ select{
     border-radius: 3px;
     font-size: 20px;
 }
-@media (width <= 420px) {
+@media (width <= 450px) {
     /* form{
         width: 90%;
     } */
